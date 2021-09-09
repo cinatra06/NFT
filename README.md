@@ -6,6 +6,8 @@ Feel free to use Loot in any way you want.
 The first batch of loot was minted on the NEAR blockchain testnet with the following info 
 ```near call $ID nft_mint '{"token_id": "0", "receiver_id": "'$ID'", "token_metadata": { "title": "NEAR Loot", "description": "Short Sword, Silk Robe of Rage, Plague Root Crown of Skill, Dragonskin Belt, Wool Shoes, Dragonskin Gloves, Pendant, Gold Ring", "media": "https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/1444", "copies": 77}}' --accountId $ID --deposit 10```
 
+Our custom Loot adventure gear contract has been published to the testnet via the following contract ```https://explorer.testnet.near.org/transactions/5sbnUkBWNzRqkeLL1YVyXJNVF6EYk1HriwnipjpSMpAS```
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/near-examples/NFT)
 
 

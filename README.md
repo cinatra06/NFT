@@ -4,7 +4,27 @@ Loot is randomized adventurer gear generated and stored on chain.
 Stats, images, and other functionality are intentionally omitted for others to interpret.
 Feel free to use Loot in any way you want.
 The first batch of loot was minted on the NEAR blockchain testnet with the following info 
-```near call $ID nft_mint '{"token_id": "0", "receiver_id": "'$ID'", "token_metadata": { "title": "NEAR Loot", "description": "Short Sword, Silk Robe of Rage, Plague Root Crown of Skill, Dragonskin Belt, Wool Shoes, Dragonskin Gloves, Pendant, Gold Ring", "media": "https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/1444", "copies": 77}}' --accountId $ID --deposit 10```
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/DM8UTRWS6ysMW53nQeSCiTt1UpyQZksRv9u1p1tsp2PC
+```{
+  token_id: '0',
+  owner_id: 'rumika.testnet',
+  metadata: {
+    title: 'NEAR Loot',
+    description: 'Short Sword, Silk Robe of Rage, Plague Root Crown of Skill, Dragonskin Belt, Wool Shoes, Dragonskin Gloves, Pendant, Gold Ring',
+    media: 'https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/1444',
+    media_hash: null,
+    copies: 77,
+    issued_at: null,
+    expires_at: null,
+    starts_at: null,
+    updated_at: null,
+    extra: null,
+    reference: null,
+    reference_hash: null
+  },
+  approved_account_ids: {}
+}```
 
 Our custom Loot adventure gear contract has been published to the testnet via the following contract ```https://explorer.testnet.near.org/transactions/5sbnUkBWNzRqkeLL1YVyXJNVF6EYk1HriwnipjpSMpAS```
 

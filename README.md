@@ -26,6 +26,7 @@ https://explorer.testnet.near.org/transactions/DM8UTRWS6ysMW53nQeSCiTt1UpyQZksRv
   approved_account_ids: {}
 }```
 
+
 Our custom Loot adventure gear contract has been published to the testnet via the following contract ```https://explorer.testnet.near.org/transactions/5sbnUkBWNzRqkeLL1YVyXJNVF6EYk1HriwnipjpSMpAS```
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/near-examples/NFT)
